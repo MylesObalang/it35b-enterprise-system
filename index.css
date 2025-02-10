@@ -170,3 +170,53 @@ td i {
     color: #fff;
     border-radius: 50px;
 }
+.last-appointments td:nth-child(3) {
+    display: none;
+}
+.fa-eye {
+    background: #32bea6;
+}
+.fa-edit {
+    background: #63b4f4;
+}
+.fa-trash-alt {
+    background: #ed5564;
+}
+@media(max-width:1090px) {
+    .sidebar {
+        width: 60px;
+    }
+    .main {
+        width: calc(100% - 60px);
+        left: 60px;
+    }
+    .top-bar {
+        width: calc(100% - 60px);
+    }
+}
+@media(max-width:860px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tables {
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:530px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:420px) {
+    .doctor-visiting {
+        font-size: 70%;
+        padding: 10px;
+        min-height: 200px;
+    }
+    .cards {
+        padding: 10px;
+    }
+    .search input {
+        padding: 0 10px;
+    }
+}
