@@ -136,3 +136,10 @@ body {
     justify-content: space-between;
     color: #444;
 }
+.btn {
+    padding: 5px 10px;
+    background: linear-gradient(45deg, #47cebe, #ef4a82);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
